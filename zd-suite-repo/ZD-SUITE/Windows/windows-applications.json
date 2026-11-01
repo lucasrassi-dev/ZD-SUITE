@@ -1,0 +1,554 @@
+[
+  {
+    "Name": "GoogleDrive",
+    "Aliases": [],
+    "OfficialUrl": "https://ipv4.google.com/drive/download/",
+    "PackageId": "Google.GoogleDrive",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Dropbox",
+    "Aliases": [],
+    "OfficialUrl": "https://www.dropbox.com/install",
+    "PackageId": "Dropbox.Dropbox",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "ProtonDrive",
+    "Aliases": [],
+    "OfficialUrl": "https://proton.me/drive/download",
+    "PackageId": "Proton.ProtonDrive",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Brave",
+    "Aliases": [],
+    "OfficialUrl": "https://brave.com/download/",
+    "PackageId": "Brave.Brave",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "TradingView",
+    "Aliases": [],
+    "OfficialUrl": "https://www.tradingview.com/desktop/",
+    "PackageId": "TradingView.TradingViewDesktop",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "ChatGPT",
+    "Aliases": [
+      "Codex OpenAI"
+    ],
+    "OfficialUrl": "https://learn.chatgpt.com/docs/windows/windows-app",
+    "PackageId": "9PLM9XGG6VKS",
+    "Source": "msstore",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Notion",
+    "Aliases": [],
+    "OfficialUrl": "https://www.notion.com/desktop",
+    "PackageId": "Notion.Notion",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Obsidian",
+    "Aliases": [],
+    "OfficialUrl": "https://obsidian.md/download",
+    "PackageId": "Obsidian.Obsidian",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Raindrop",
+    "Aliases": [],
+    "OfficialUrl": "https://raindrop.io/download",
+    "PackageId": "9PL7PLM5BFT2",
+    "Source": "msstore",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Spotify",
+    "Aliases": [],
+    "OfficialUrl": "https://www.spotify.com/download/other/",
+    "PackageId": "Spotify.Spotify",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "PokerStars",
+    "Aliases": [],
+    "OfficialUrl": "https://www.pokerstars.com/poker/download/",
+    "PackageId": "",
+    "Source": "",
+    "InstallerUrl": "https://download.pokerstars.com/poker/client/download/",
+    "Architectures": [
+      "x64"
+    ]
+  },
+  {
+    "Name": "Wireshark",
+    "Aliases": [],
+    "OfficialUrl": "https://www.wireshark.org/download.html",
+    "PackageId": "WiresharkFoundation.Wireshark",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Delta eToro",
+    "Aliases": [],
+    "OfficialUrl": "https://delta.app/en/download",
+    "PackageId": "",
+    "Source": "",
+    "InstallerUrl": "https://updates.desktop.delta.app/windows/nsis/x64",
+    "Architectures": [
+      "x64"
+    ]
+  },
+  {
+    "Name": "Discord",
+    "Aliases": [],
+    "OfficialUrl": "https://discord.com/download",
+    "PackageId": "Discord.Discord",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "YubiKey Manager",
+    "Aliases": [],
+    "OfficialUrl": "https://www.yubico.com/support/download/yubikey-manager/",
+    "PackageId": "Yubico.YubikeyManager",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Yubikey Authenticator",
+    "Aliases": [],
+    "OfficialUrl": "https://www.yubico.com/products/yubico-authenticator/",
+    "PackageId": "Yubico.Authenticator",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "1Password",
+    "Aliases": [],
+    "OfficialUrl": "https://1password.com/downloads/",
+    "PackageId": "AgileBits.1Password",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "SublimeText",
+    "Aliases": [],
+    "OfficialUrl": "https://www.sublimetext.com/download",
+    "PackageId": "SublimeHQ.SublimeText.4",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Visual Studio Code",
+    "Aliases": [],
+    "OfficialUrl": "https://code.visualstudio.com/download",
+    "PackageId": "Microsoft.VisualStudioCode",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Warp",
+    "Aliases": [],
+    "OfficialUrl": "https://www.warp.dev/download",
+    "PackageId": "Warp.Warp",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Tor Network",
+    "Aliases": [],
+    "OfficialUrl": "https://www.torproject.org/download/",
+    "PackageId": "TorProject.TorBrowser",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Signal",
+    "Aliases": [],
+    "OfficialUrl": "https://signal.org/download/",
+    "PackageId": "OpenWhisperSystems.Signal",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Calibre",
+    "Aliases": [],
+    "OfficialUrl": "https://calibre-ebook.com/download",
+    "PackageId": "calibre.calibre",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Bisq Network",
+    "Aliases": [],
+    "OfficialUrl": "https://bisq.network/",
+    "PackageId": "Bisq.Bisq",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "LibreOffice",
+    "Aliases": [],
+    "OfficialUrl": "https://www.libreoffice.org",
+    "PackageId": "TheDocumentFoundation.LibreOffice",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "VeraCrypt",
+    "Aliases": [],
+    "OfficialUrl": "https://veracrypt.io/en/Downloads.html",
+    "PackageId": "IDRIX.VeraCrypt",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Microsoft OneDrive",
+    "Aliases": [],
+    "OfficialUrl": "https://www.microsoft.com/microsoft-365/onedrive/download",
+    "PackageId": "Microsoft.OneDrive",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "MicrosoftOffice",
+    "Aliases": [],
+    "OfficialUrl": "https://www.microsoft.com/microsoft-365/download-office",
+    "PackageId": "Microsoft.Office",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Arc Browser",
+    "Aliases": [],
+    "OfficialUrl": "https://arc.net/download",
+    "PackageId": "TheBrowserCompany.Arc",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Docker",
+    "Aliases": [],
+    "OfficialUrl": "https://docs.docker.com/desktop/setup/install/windows-install/",
+    "PackageId": "Docker.DockerDesktop",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "InSync",
+    "Aliases": [],
+    "OfficialUrl": "https://www.insynchq.com/downloads/windows",
+    "PackageId": "Insynchq.Insync",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "CloudMounter",
+    "Aliases": [],
+    "OfficialUrl": "https://cloudmounter.net/",
+    "PackageId": "",
+    "Source": "",
+    "InstallerUrl": "https://cdn.electronic.us/products/cloudmounter/win/download/cloudmounter.exe",
+    "Architectures": [
+      "x64"
+    ]
+  },
+  {
+    "Name": "iMazing",
+    "Aliases": [],
+    "OfficialUrl": "https://imazing.com/download",
+    "PackageId": "DigiDNA.iMazing",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "ProtonVPN",
+    "Aliases": [],
+    "OfficialUrl": "https://protonvpn.com/download",
+    "PackageId": "Proton.ProtonVPN",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "ProtonMail",
+    "Aliases": [],
+    "OfficialUrl": "https://proton.me/mail/download",
+    "PackageId": "Proton.ProtonMail",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Steam",
+    "Aliases": [],
+    "OfficialUrl": "https://store.steampowered.com/about/",
+    "PackageId": "Valve.Steam",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "RemotePlay PSN",
+    "Aliases": [],
+    "OfficialUrl": "https://www.playstation.com/remote-play/",
+    "PackageId": "PlayStation.PSRemotePlay",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "WhatsApp",
+    "Aliases": [],
+    "OfficialUrl": "https://www.whatsapp.com/download",
+    "PackageId": "9NKSQGP7F2NH",
+    "Source": "msstore",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "LedgerLive",
+    "Aliases": [],
+    "OfficialUrl": "https://shop.ledger.com/pages/ledger-wallet-download",
+    "PackageId": "LedgerHQ.LedgerLive",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Binance",
+    "Aliases": [],
+    "OfficialUrl": "https://www.binance.com/en/download",
+    "PackageId": "BinanceTech.Binance",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "GoogleChrome",
+    "Aliases": [],
+    "OfficialUrl": "https://www.google.com/chrome/",
+    "PackageId": "Google.Chrome",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Blip",
+    "Aliases": [],
+    "OfficialUrl": "https://blip.net/download",
+    "PackageId": "",
+    "Source": "",
+    "InstallerUrl": "https://blip.net/download/windows",
+    "Architectures": [
+      "x64"
+    ]
+  },
+  {
+    "Name": "OBS Studio",
+    "Aliases": [],
+    "OfficialUrl": "https://obsproject.com/download",
+    "PackageId": "OBSProject.OBSStudio",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Firefox",
+    "Aliases": [],
+    "OfficialUrl": "https://www.firefox.com/download/",
+    "PackageId": "Mozilla.Firefox",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Adobe Acrobat",
+    "Aliases": [],
+    "OfficialUrl": "https://get.adobe.com/uk/reader/",
+    "PackageId": "Adobe.Acrobat.Reader.64-bit",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Telegram",
+    "Aliases": [],
+    "OfficialUrl": "https://desktop.telegram.org/",
+    "PackageId": "Telegram.TelegramDesktop",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Microsoft Teams",
+    "Aliases": [],
+    "OfficialUrl": "https://www.microsoft.com/microsoft-teams/download-app",
+    "PackageId": "Microsoft.Teams",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Python",
+    "Aliases": [],
+    "OfficialUrl": "https://www.python.org/downloads/",
+    "PackageId": "Python.Python.3.13",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "GitHub Desktop",
+    "Aliases": [],
+    "OfficialUrl": "https://desktop.github.com/download/",
+    "PackageId": "GitHub.GitHubDesktop",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Adobe CreativeCloud",
+    "Aliases": [],
+    "OfficialUrl": "https://www.adobe.com/creativecloud/desktop-app.html",
+    "PackageId": "Adobe.CreativeCloud",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Canva",
+    "Aliases": [],
+    "OfficialUrl": "https://www.canva.com/download/windows/",
+    "PackageId": "Canva.Canva",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "SteamLink",
+    "Aliases": [],
+    "OfficialUrl": "https://store.steampowered.com/remoteplay",
+    "PackageId": "Valve.SteamLink",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "PyCharm IDE",
+    "Aliases": [],
+    "OfficialUrl": "https://www.jetbrains.com/pycharm/",
+    "PackageId": "JetBrains.PyCharm",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "CLion IDE",
+    "Aliases": [],
+    "OfficialUrl": "https://www.jetbrains.com/clion/",
+    "PackageId": "JetBrains.CLion",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "WebStorm IDE",
+    "Aliases": [],
+    "OfficialUrl": "https://www.jetbrains.com/webstorm/",
+    "PackageId": "JetBrains.WebStorm",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Datagrip IDE",
+    "Aliases": [],
+    "OfficialUrl": "https://www.jetbrains.com/datagrip/",
+    "PackageId": "JetBrains.DataGrip",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Notesnook",
+    "Aliases": [],
+    "OfficialUrl": "https://notesnook.com/downloads",
+    "PackageId": "Streetwriters.Notesnook",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Claude",
+    "Aliases": [],
+    "OfficialUrl": "https://claude.com/download",
+    "PackageId": "Anthropic.Claude",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Cursor",
+    "Aliases": [],
+    "OfficialUrl": "https://cursor.com/download",
+    "PackageId": "Anysphere.Cursor",
+    "Source": "winget",
+    "InstallerUrl": "",
+    "Architectures": []
+  },
+  {
+    "Name": "Grok Bot",
+    "Aliases": [],
+    "OfficialUrl": "https://cursor.com/download/bot",
+    "PackageId": "",
+    "Source": "",
+    "InstallerUrl": "https://downloads.cursor.com/grokbot/stable/win32-x64/0.75.5/Grok_Bot_0.75.5_Setup.exe",
+    "Architectures": [
+      "x64"
+    ]
+  }
+]
