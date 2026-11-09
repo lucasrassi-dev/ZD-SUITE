@@ -8,9 +8,8 @@ echo -e "========================================================\n"
 
 if [[ $EUID -eq 0 ]]; then
     echo "Run as your own user, not with sudo: Homebrew refuses to run as root"
-    exit 1
+    exit 
 fi
-
 brew_pkg=()
 cask_pkg=()
 mas_pkg=()
@@ -121,7 +120,7 @@ generate_resource_env() {
                 pending_url=""; pending_label=""; pending_site=""
             fi
             case "$line" in
-                --dmg|--pkg|--zip|--app|--appstore) mode="${line#--}" ;;
+                --brew|--cask|--mas|--dmg|--pkg|--zip|--app|--appstore) mode="${line#--}" ;;
                 *) mode="" ;;
             esac
             label=""
@@ -283,7 +282,7 @@ install_npm() {
     fi
 }
 
-# Resource package lists support --dmg, --pkg, --zip, --app, and --appstore.
+# Resource package lists support --brew , --cask, --mas,--dmg, --pkg, --zip, --app, and --appstore.
 run_packages() {
     local pkgfile="$1"
     [[ -f "$pkgfile" ]] || { echo "!!! Package file not found: $pkgfile"; return 1; }
@@ -300,16 +299,19 @@ run_packages() {
         read -ra items <<< "$line"
         for item in "${items[@]}"; do
             case "$item" in
-                --dmg|--pkg|--zip|--app|--appstore) mode="${item#--}" ;;
+                --brew|--cask|--mas|--dmg|--pkg|--zip|--app|--appstore) mode="${item#--}" ;;
                 --*) echo "!!! Unsupported section in nexus-macos-resources.sh: $item"; mode="" ;;
                 *)
                     case "$mode" in
+			brew) install_brew "$item" ;;
+			cask) install_cask "$item" ;;
+			mas) install_mas "$item" ;;
                         dmg) run_dmg "$item" ;;
                         pkg) run_pkg "$item" ;;
                         zip) run_zip "$item" ;;
                         app) run_app "$item" ;;
                         appstore) appstore_url+=("$item") ;;
-                        *)   echo "!!! No --dmg, --pkg, --zip, --app, or --appstore section before: $item" ;;
+                        *)   echo "!!! No --brew, --cask, --mas, --dmg, --pkg, --zip, --app, or --appstore section before: $item" ;;
                     esac
                     ;;
             esac
@@ -670,7 +672,7 @@ print_summary() {
 # ---------------- USAGE ----------------
 usage() {
     echo -e "\nUsage: $0 -f <envfile> (or --file <envfile>)"
-    echo "Sections supported: --dmg, --pkg, --zip, --app, --appstore"
+    echo "Sections supported: --brew, --cask, --mas,--dmg, --pkg, --zip, --app, --appstore"
     exit 1
 }
 
